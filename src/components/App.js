@@ -7,6 +7,7 @@ import { Quiz, Landing, Result, Loading } from "pages";
 import { QUIZZES } from "../constants";
 import { Helmet } from "react-helmet";
 import favicon from "assets/images/favicon.ico";
+import elon from "assets/images/elon.jpg";
 
 function App() {
 	const [score, setScore] = useState(0);
@@ -18,7 +19,7 @@ function App() {
 			<Helmet>
 				<title>일론 머스크 지수 테스트하기!</title>
                 <link rel="icon" href={favicon} />
-				
+
                 {/* URL 정보 */}
                 <meta property="og:url" content={currentUrl} />
                 {/* title 정보 */}
