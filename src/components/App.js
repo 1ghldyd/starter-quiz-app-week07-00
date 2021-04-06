@@ -15,7 +15,7 @@ function App() {
 	return (
 		<ThemeProvider theme={theme}>
 			<Helmet>
-				<title>일론 머스크 지수 테스트하기</title>
+				<title>일론 머스크 지수 테스트하기!</title>
                 <link rel="icon" href={favicon} />
 			</Helmet>
 			<GlobalStyle />
